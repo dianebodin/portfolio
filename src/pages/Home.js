@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import DynamicText from '../components/DynamicText';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
-import ScrollButton from '../components/ScrollButton';
+import ArrowButton from '../components/ArrowButton';
 import SocialNetwork from '../components/SocialNetwork';
 
 const Home = () => {
@@ -39,7 +39,7 @@ const Home = () => {
             <h2><DynamicText /></h2>
           </div>
         </div>
-        <ScrollButton right="/projet-1" />
+        <ArrowButton right="/projet-1" />
       </div>
       </motion.div>
     </main>

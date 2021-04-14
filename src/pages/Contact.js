@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import ContactForm from '../components/ContactForm';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
-import ScrollButton from '../components/ScrollButton';
+import ArrowButton from '../components/ArrowButton';
 import SocialNetwork from '../components/SocialNetwork';
 
 const Contact = () => {
@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="credits">
           <p>Diane Bodin - 2021</p>
         </div>
-        <ScrollButton left={"/projet-3"} />
+        <ArrowButton left={"/projet-3"} />
       </motion.div>
     </main>
   );

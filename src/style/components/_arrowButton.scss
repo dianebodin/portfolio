@@ -1,0 +1,34 @@
+.arrow-bottom {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 1.7rem;
+  width: 100%;
+
+  .main-arrow {
+    position: relative;
+
+    .left, .right {
+      position: absolute;
+      bottom: 1rem;
+    }
+
+    .left {
+      margin-left: 2rem;
+    }
+  
+    .right {
+      right: 2rem;
+    }
+  }
+    
+  span {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    transition: 0.3s;
+
+    &:hover {
+      color: $color-2;
+      font-size: 1.8rem;
+    }
+  }
+}
