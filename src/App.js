@@ -5,10 +5,8 @@ import Home from './pages/Home';
 import { Project1, Project2, Project3 } from './pages/Projects';
 import { AnimatePresence } from 'framer-motion';
 
-const App = () => {
-
-  return (
-    <AnimatePresence>
+const App = () => (
+  <AnimatePresence>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/projet-1" component={Project1} />
@@ -17,8 +15,7 @@ const App = () => {
       <Route path="/contact" component={Contact} />
       <Redirect to='/' />
     </Switch>
-    </AnimatePresence>
-  )
-}
+  </AnimatePresence>
+);
 
 export default App;
