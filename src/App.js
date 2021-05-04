@@ -1,9 +1,9 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import { Project1, Project2, Project3, Project4 } from './pages/Projects';
-import { AnimatePresence } from 'framer-motion';
 
 const App = () => (
   <AnimatePresence>
