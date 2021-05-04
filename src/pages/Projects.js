@@ -37,7 +37,19 @@ export const Project3 = () => (
       <Navigation />
       <Logo />
       <Project projectNumber={2} />
-      <ArrowButton left={"/projet-2"} right={"/contact"} />
+      <ArrowButton left={"/projet-2"} right={"/projet-4"} />
+    </div>
+  </main>
+);
+
+export const Project4 = () => (
+  <main>
+    <Mouse />
+    <div className="project">
+      <Navigation />
+      <Logo />
+      <Project projectNumber={3} />
+      <ArrowButton left={"/projet-3"} right={"/contact"} />
     </div>
   </main>
 );
