@@ -1,6 +1,6 @@
 # portfolio
   
-> React
+> React, EmailJS
     
 ## Webapp
 https://dianebodin.fr
